@@ -12,6 +12,14 @@
 		84B02F8A1CFD335500D94630 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B02F881CFD335500D94630 /* Main.storyboard */; };
 		84B02F8C1CFD335500D94630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B02F8B1CFD335500D94630 /* Assets.xcassets */; };
 		84B02F8F1CFD335500D94630 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B02F8D1CFD335500D94630 /* LaunchScreen.storyboard */; };
+		84B02F9E1CFD344A00D94630 /* duration.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B02F961CFD344A00D94630 /* duration.png */; };
+		84B02F9F1CFD344A00D94630 /* maxVolume.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B02F971CFD344A00D94630 /* maxVolume.png */; };
+		84B02FA01CFD344A00D94630 /* miniVolume.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B02F981CFD344A00D94630 /* miniVolume.png */; };
+		84B02FA11CFD344A00D94630 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84B02F991CFD344A00D94630 /* music.mp3 */; };
+		84B02FA21CFD344A00D94630 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B02F9A1CFD344A00D94630 /* pause.png */; };
+		84B02FA31CFD344A00D94630 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B02F9B1CFD344A00D94630 /* play.png */; };
+		84B02FA41CFD344A00D94630 /* thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B02F9C1CFD344A00D94630 /* thumb.png */; };
+		84B02FA51CFD344A00D94630 /* thumbHightLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B02F9D1CFD344A00D94630 /* thumbHightLight.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		84B02F8B1CFD335500D94630 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84B02F8E1CFD335500D94630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84B02F901CFD335500D94630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B02F961CFD344A00D94630 /* duration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = duration.png; sourceTree = "<group>"; };
+		84B02F971CFD344A00D94630 /* maxVolume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maxVolume.png; sourceTree = "<group>"; };
+		84B02F981CFD344A00D94630 /* miniVolume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = miniVolume.png; sourceTree = "<group>"; };
+		84B02F991CFD344A00D94630 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		84B02F9A1CFD344A00D94630 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		84B02F9B1CFD344A00D94630 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		84B02F9C1CFD344A00D94630 /* thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb.png; sourceTree = "<group>"; };
+		84B02F9D1CFD344A00D94630 /* thumbHightLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbHightLight.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,14 @@
 		84B02F831CFD335500D94630 /* UISlider1 */ = {
 			isa = PBXGroup;
 			children = (
+				84B02F961CFD344A00D94630 /* duration.png */,
+				84B02F971CFD344A00D94630 /* maxVolume.png */,
+				84B02F981CFD344A00D94630 /* miniVolume.png */,
+				84B02F991CFD344A00D94630 /* music.mp3 */,
+				84B02F9A1CFD344A00D94630 /* pause.png */,
+				84B02F9B1CFD344A00D94630 /* play.png */,
+				84B02F9C1CFD344A00D94630 /* thumb.png */,
+				84B02F9D1CFD344A00D94630 /* thumbHightLight.png */,
 				84B02F841CFD335500D94630 /* AppDelegate.swift */,
 				84B02F861CFD335500D94630 /* ViewController.swift */,
 				84B02F881CFD335500D94630 /* Main.storyboard */,
@@ -122,8 +146,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B02FA41CFD344A00D94630 /* thumb.png in Resources */,
 				84B02F8F1CFD335500D94630 /* LaunchScreen.storyboard in Resources */,
+				84B02F9E1CFD344A00D94630 /* duration.png in Resources */,
+				84B02FA31CFD344A00D94630 /* play.png in Resources */,
+				84B02FA21CFD344A00D94630 /* pause.png in Resources */,
+				84B02FA01CFD344A00D94630 /* miniVolume.png in Resources */,
+				84B02FA51CFD344A00D94630 /* thumbHightLight.png in Resources */,
+				84B02F9F1CFD344A00D94630 /* maxVolume.png in Resources */,
 				84B02F8C1CFD335500D94630 /* Assets.xcassets in Resources */,
+				84B02FA11CFD344A00D94630 /* music.mp3 in Resources */,
 				84B02F8A1CFD335500D94630 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
